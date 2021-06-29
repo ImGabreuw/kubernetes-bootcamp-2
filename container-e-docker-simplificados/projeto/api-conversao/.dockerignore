@@ -1,0 +1,2 @@
+# Arquivos ignorados pelo COPY no Dockerfile
+node_modules/
