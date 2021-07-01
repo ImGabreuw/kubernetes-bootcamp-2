@@ -134,6 +134,18 @@
 
     * Exemplo: `$ k3d cluster create meucluster --servers 3 --agents 3` 
 
+  * Iniciar um _cluster_ Kubernetes
+
+    * Sintaxe: `$ k3d cluster start <nome>`
+
+    * Exemplo: `$ k3d cluster start meucluster`
+
+  * Parar um _cluster_ Kubernetes
+
+    * Sintaxe: `$ k3d cluster stop <nome>`
+
+    * Exemplo: `$ k3d cluster stop meucluster`
+
 ### Deploy de um _cluster_ Kubernetes
 
 * **Conceito: 3 objetos do _cluster_ Kubernetes**
