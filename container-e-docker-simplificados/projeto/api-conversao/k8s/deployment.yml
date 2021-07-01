@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   name: api-conversao
 spec:
+  replicas: 3
   selector:
     matchLabels:
       app: api-conversao
